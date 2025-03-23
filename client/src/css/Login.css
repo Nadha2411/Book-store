@@ -1,0 +1,78 @@
+.login-page, .student-form-container {
+  font-family: 'Montserrat', sans-serif; /* Updated font to Montserrat for a modern look */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: #fff; /* Black background */
+}
+
+.login-container, .student-form {
+  background-color: #eee8aa; /* Slightly more opaque white background for contrast */
+  box-shadow: 0 0 15px rgba(255, 193, 7, 0.6); /* Yellow shadow effect */
+  padding: 25px; /* Increased padding for better spacing */
+  width: 550px; /* Slightly wider for better layout */
+}
+
+.login-container h2, .student-form {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #1c1c1c; /* Bright Yellow for headings */
+  font-weight: 700; /* Bold headings */
+  font-size: 2rem;
+}
+
+.login-container .form-group,
+.student-form .form-group {
+  margin-bottom: 15px;
+}
+
+.login-container .form-group label,
+.student-form .form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #1c1c1c; /* White labels for better contrast */
+}
+
+.login-container .form-group input,
+.login-container .form-group select,
+.student-form .form-group input {
+  width: 100%;
+  padding: 10px; /* Increased padding for a more comfortable input feel */
+  box-sizing: border-box;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ffc107; /* Yellow border for inputs */
+  background-color: #D3D3D3; /* Dark gray background for input fields */
+  color: #000000; /* White text inside input fields */
+}
+
+.login-container .btn-login,
+.student-form button {
+  background-color: #1c1c1c; /* Yellow background for buttons */
+  color: #fff; /* Black text */
+  padding: 12px; /* Slightly increased padding for button */
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.login-container .btn-login:hover,
+.student-form button:hover {
+  background-color: #ffd700; /* Brighter yellow on hover */
+  transform: scale(1.05); /* Slight grow effect on hover */
+}
+
+.login-container .form-group input:focus,
+.student-form .form-group input:focus {
+  outline: none;
+  border-color: #ffd700; /* Change border color on focus */
+}

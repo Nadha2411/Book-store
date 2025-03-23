@@ -1,0 +1,34 @@
+/* Hero.css*/
+.hero{
+    display: flex;
+    background-color:;
+    color: #ffc107;
+    height: 90vh;
+    padding-inline: 30px;
+}
+
+.hero-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.hero-text{
+    font-size: 4rem;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.hero-description{
+    font-size: 1.5rem;
+}
+
+.hero-image{
+    flex: 1;
+    background: url('C:\Book store MS\client\public\Images\book-stack-set-of-books-in-png.webp') center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}

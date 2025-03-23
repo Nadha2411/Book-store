@@ -1,0 +1,106 @@
+/* Navbar.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 45px; /* Increased padding for better spacing */
+    background-color: #1c1c1c;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif; /* Updated font to a modern, elegant style */
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 2rem; /* Increased font size for a stronger brand presence */
+    font-weight: 700; /* Bold text to make the brand stand out */
+    margin-right: 30px; /* Increased space between brand and other elements */
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.navbar-brand:hover {
+    color: #ffc107; /* Highlight effect on hover for the brand name */
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px; /* Increased margin for better spacing */
+    font-weight: 600; /* Semi-bold for better readability */
+    font-size: 1rem; /* Set font size to make the text more balanced */
+    transition: color 0.3s ease, font-weight 0.3s ease; /* Smooth hover transitions */
+}
+
+.navbar-link:hover {
+    color: #ffc107; /* Bright yellow color on hover */
+    font-weight: 700; /* Bold on hover to make the links stand out */
+    text-decoration: underline; /* Underline effect to indicate interactivity */
+}
+
+/* Login and Logout Buttons */
+.navbar-btn {
+    padding: 8px 16px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn {
+    background-color: #ffc107; /* Blue background for Login button */
+    color: white;
+}
+
+.login-btn:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+.logout-btn {
+    background-color: #ffc107; /* Red background for Logout button */
+    color: white;
+}
+
+.logout-btn:hover {
+    background-color: #2980b9; /* Darker red on hover */
+}
+
+/* For small screens */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 12px 25px; /* Reduced padding for mobile screens */
+    }
+
+    .navbar-link {
+        margin-left: 20px; /* Adjust margin for smaller screens */
+        font-size: 0.9rem; /* Slightly smaller font for better fitting */
+    }
+}
+.navbar-logo {
+    width: 40px; /* Adjust the size of the logo */
+    height: auto;
+    margin-right: 10px; /* Space between logo and the brand name */
+    vertical-align: middle; /* Align logo with the text */
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center; /* Vertically center the logo and text */
+}
